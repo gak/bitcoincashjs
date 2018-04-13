@@ -63,7 +63,7 @@ bch.URI = require('./uri');
 bch.deps = {};
 bch.deps.bnjs = require('bn.js');
 bch.deps.bs58 = require('bs58');
-bch.deps.Buffer = Buffer;
+bch.deps.Buffer = require('buffer');
 bch.deps.elliptic = require('elliptic');
 bch.deps._ = require('lodash');
 
